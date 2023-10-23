@@ -1,6 +1,6 @@
 import { useState } from "react"
-function Counter () {
-    const [result, setResult] =useState(0)
+function Counter (props) {
+    const [result, setResult] =useState(props.value)
 const [Multiplier, setMultiplier] = useState(1);
 const [delta, setDelta] = useState(1);
 
